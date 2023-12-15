@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <h1>Cat Photo App</h1>
+        <main>
+            <h2>Sample cat photo</h2>
+            <img src="Untitled.jpeg" alt="relaxing cat">
+        <p>Click <a href="https://www.freepik.com/photos/beautiful-cat" target="_blank">here</a> to view more cat photos.</p>
+        <!--TODO: Add link to cat photos-->
+        <h3>Cat lists</h3>
+        <div class="lists">
+        <p>Things cat <em>love</em>:<</p>
+        <ul>
+           <li>Cat nip</li>
+           <li>laser pointers</li>
+           <li>lasagna</li> 
+        </ul>
+        <img src="lasagna.jpg" alt="Delicious lasagna">
+        <p>Things cat <strong>hate</strong></p>
+        <ol>
+            <li>other cats</li>
+            <li>thunder</li>
+            <li>flea treatment</li>
+        </ol>
+        </div>
+        <img src="cats.jpg" alt="Some cats">
+        <form action="/submit-cat-photo">
+            <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label><br>
+            <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    
+            <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label><br>
+            <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Lazy</label><br>
+            <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic</label><br>
+    
+            <input type="text" placeholder="cat photo URL" required><br>
+            <button type="submit">Submit</button>
+          </form>
+        </main>
+        <footer>
+            <p><small>No Copyright - <a href="https://www.youtube.com/channel/UCTZ8ReWmdJYjooGAIXc4ekw/videos" target="_blank">Alada Ghorana Bd 71</a></small></p>
+          </footer>      
+    </body>
+</html>
